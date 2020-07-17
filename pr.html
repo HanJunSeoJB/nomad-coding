@@ -6,9 +6,27 @@
         href = "src/css/pr.css" />
     </head>
     <body>
-        <div class = "js-clock">
-        <h1>00:00</h1>
+        <div class = "region full"></div>
+        <div class="region center-above"></div>
+        <div class = "region center">
+            <div class = "js-clock">
+            <h1>00:00</h1>
         </div>
+        </div>
+        <form class = 'js-form form'>
+            <input type = "text" placeholder = 'Enter your name' />
+        </form>
+        <h4 class = "js-greetings greetings"></h4>
+        <form class = 'js-toDoForm'>
+            <input type = 'text' placeholder = 'Write a to do' />
+            <ul class = 'js-toDoList'>
+            </ul>
+        </form>
+        <span class = "js-weather"></span>
         <script src = "src/js/clock.js"></script>
+        <script src = "src/js/gretting.js"></script>
+        <script src = "src/js/todo.js"></script>
+        <script src = "src/js/bg.js"></script>
+        <script src = "src/js/weather.js"></script>
     </body>
 </html>

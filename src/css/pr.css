@@ -1,0 +1,77 @@
+
+h1,
+h4,
+span {
+    color: white;
+}
+.clicked {
+    color: #FB0A0A;
+}
+.btn {
+    cursor: pointer;
+}
+.form,
+.greetings {
+    display: none;
+}
+.showing {
+    display: block;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+.bgImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+}
+.time {
+    cursor: default;
+    font-size: 1050%;
+    letter-spacing: -5px;
+    font-weight: 500;
+    user-select: none;
+    text-align: center;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+.center-above, .center-below {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.center-hello {
+    cursor: default;
+    font-size: 337.5%;
+    letter-spacing: -5px;
+    font-weight: 500;
+    user-select: none;
+    text-align: center;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+.apps, .full {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.full {
+    height: 100%;
+    top: 0;
+}
+div {
+    display: block;
+}
